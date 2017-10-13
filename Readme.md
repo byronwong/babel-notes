@@ -1,5 +1,30 @@
 # Getting started with Babel
 
+<!-- TOC -->
+
+- [Getting started with Babel](#getting-started-with-babel)
+    - [Installing Babel](#installing-babel)
+        - [Calling Babel from local](#calling-babel-from-local)
+    - [Running Babel](#running-babel)
+    - [Installing Presets](#installing-presets)
+        - [Using Presets](#using-presets)
+        - [Creating a config file](#creating-a-config-file)
+        - [Module Formatters](#module-formatters)
+        - [Polyfills and Shims](#polyfills-and-shims)
+    - [Browser Support](#browser-support)
+        - [Babel polyfill](#babel-polyfill)
+        - [Supporting IE8](#supporting-ie8)
+    - [Using Babel with your build tools](#using-babel-with-your-build-tools)
+        - [NPM scripts](#npm-scripts)
+        - [Gulp](#gulp)
+    - [Module loaders](#module-loaders)
+        - [Webpack](#webpack)
+        - [Browserify](#browserify)
+        - [React](#react)
+    - [Resources](#resources)
+
+<!-- /TOC -->
+
 > NOTE: We will be using the latest version where babel has been divided into modules. 
 
 ## Installing Babel
